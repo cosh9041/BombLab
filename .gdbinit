@@ -1,5 +1,4 @@
 break explode_bomb
-break phase_1
 break phase_2
 break secret_phase
 break phase_3
