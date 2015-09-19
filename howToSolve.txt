@@ -1,0 +1,12 @@
+Phase 1: Examine string that is being compared, use that as answer
+Phase 2:
+Phase 3:
+Phase 4:
+Phase 5: Expects two integers. First input must equal not be 15.  Array of 16 
+    elements containing values 0 through 15, corresponding to the array index, 
+    but in random order. Second input should be sum of array elements, 115. 
+    First input is an element to access in the array. A do/while loop is used 
+    access the array, which executes as long as the current array value is not 15.
+    The loop must run 15 times (edx++) to avoid explosion, so the first element 
+    access point must weave a route that yields 15 iterations. Wrote out array 
+    and discovered that.
