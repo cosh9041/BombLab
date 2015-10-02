@@ -10,3 +10,11 @@ Phase 5: Expects two integers. First input must equal not be 15.  Array of 16
     The loop must run 15 times (edx++) to avoid explosion, so the first element 
     access point must weave a route that yields 15 iterations. Wrote out array 
     and discovered that.
+
+Phase 6: Expects six ints, puts them in array on stack. Expexts nums 1-6, no 
+    repeats. Subtracts each value from 7 and places that in array (i.e. val 3 
+    then goes to 4, 2 goes to 5, etc.). Then traverses a linked list and places 
+    pointers to the LL on the stack in the order of the array, after (subtraction
+    of 7). Changes the values of node{x}.next to correspond to order placed on 
+    stack. Then checks if node.value and node.next.value are in ascending order.
+    So pick numbers that, when subtracted from 7, give an ascending order of the LL.
