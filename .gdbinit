@@ -1,3 +1,3 @@
 break explode_bomb
 break secret_phase
-break phase_6
+break *0x80848e86
