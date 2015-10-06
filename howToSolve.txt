@@ -1,7 +1,7 @@
 Phase 1: Examine string that is being compared, use that as answer
-Phase 2:
-Phase 3:
-Phase 4:
+Phase 2: Fib sequence
+Phase 3: Expects two integers. First input must be less than or equal to 5, line +159. Based on the first number, jump to different points in program. From there add/subtract various values, starting at 0 in eax, and then compare eax to the second number. They must be equal.
+Phase 4: Expects two integers. First integer must be less than or equal to 15.
 Phase 5: Expects two integers. First input must equal not be 15.  Array of 16 
     elements containing values 0 through 15, corresponding to the array index, 
     but in random order. Second input should be sum of array elements, 115. 
